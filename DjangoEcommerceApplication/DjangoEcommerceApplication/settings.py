@@ -46,6 +46,8 @@ INSTALLED_APPS = [
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+# custom user model
+AUTH_USER_MODEL = "App_Login.User"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -113,7 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/Dhaha'
+TIME_ZONE = 'Asia/Dhaka'
 
 USE_I18N = True
 
